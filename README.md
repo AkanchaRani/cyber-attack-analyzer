@@ -43,15 +43,6 @@ It provides a centralized dashboard for monitoring threats and enables real-time
 
 ---
 
-## 🧠 System Flow  
-
-```mermaid
-graph TD
-A[Log Input] --> B[Analysis Engine]
-B --> C[Threat Detection]
-C --> D[Dashboard]
-D --> E[Action: Block / Monitor]
-
 🛠️ Tech Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=php,mysql,js,html,css" /> </p>
 Frontend: HTML, CSS, JavaScript
