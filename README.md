@@ -41,28 +41,35 @@ It provides a centralized dashboard for monitoring threats and enables real-time
 | IP Blocking | Block malicious IPs |
 | Admin Panel | Manage users and system |
 
+## 🛠️ Tech Stack  
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,mysql,js,html,css" />
+</p>
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Server:** Apache  
+
 ---
 
-🛠️ Tech Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=php,mysql,js,html,css" /> </p>
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL
-Server: Apache
+## 📂 Project Structure  
 
-📂 Project Structure
-
+```bash
 CyberIDS/
-├── assets/
-├── config/
-├── includes/
-├── index.php
-├── login.php
-├── register.php
-├── manage_users.php
-├── upload_logs.php
-├── view_logs.php
-├── blocked_ips.php
+├── assets/              # UI assets
+├── config/              # Database configuration
+├── includes/            # Core logic
+├── index.php            # Dashboard
+├── login.php            # Login
+├── register.php         # Registration
+├── logout.php           # Logout
+├── manage_users.php     # Admin panel
+├── upload_logs.php      # Log upload
+├── view_logs.php        # View logs
+├── blocked_ips.php      # IP blocking
+├── manual_entry.php     # Manual logs
 └── ...
 
 🔮 Future Enhancements
